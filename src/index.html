@@ -1,12 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mango-fest</title>
     <link href="../dist/output.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="bg-green-400">hellow</div>
+    <div class="">
+        <div class="w-full bg-green-600 relative overflow-hidden">
+            <!-- Image with full width -->
+            <img src="../public/images/Homepage-Shopify_Cover.jpg" class="object-cover w-full" />
+
+            <!-- Wave Layers -->
+            <!-- First wave (closest to the image) -->
+            <svg class="absolute bottom-0 left-0 w-full h-16" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#38a169"
+                    d="M0,224L30,213.3C60,203,120,181,180,186.7C240,192,300,224,360,224C420,224,480,192,540,165.3C600,139,660,117,720,128C780,139,840,181,900,186.7C960,192,1020,160,1080,149.3C1140,139,1200,149,1260,149.3C1320,149,1380,139,1410,133.3L1440,128V320H0Z">
+                </path>
+            </svg>
+
+            <!-- Second wave (slightly lower) -->
+            <svg class="absolute bottom-0 left-0 w-full h-20" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#2f855a"
+                    d="M0,288L48,266.7C96,245,192,203,288,181.3C384,160,480,160,576,160C672,160,768,160,864,170.7C960,181,1056,203,1152,197.3C1248,192,1344,160,1392,144L1440,128V320H0Z">
+                </path>
+            </svg>
+
+            <!-- Third wave (farthest) -->
+            <svg class="absolute bottom-0 left-0 w-full h-24" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#276749"
+                    d="M0,320L30,293.3C60,267,120,213,180,181.3C240,149,300,139,360,133.3C420,128,480,128,540,149.3C600,171,660,213,720,218.7C780,224,840,192,900,170.7C960,149,1020,139,1080,133.3C1140,128,1200,128,1260,138.7C1320,149,1380,171,1410,181.3L1440,192V320H0Z">
+                </path>
+            </svg>
+        </div>
+
+
+
+        <div class="h-20 w-full  overflow-hidden flex justify-center items-center">
+            <h1 class="text-yellow-500 font-bold text-2xl">কৃষিজাতে শুরু হচ্ছে আম উতসব ২০২৪</h1>
+        </div>
+        <div class="bg-lime-600 w-full">
+            <div class="flex justify-center">
+                <div
+                    class="w-4/5 bg-[url('../public/images/Homepage-Shopify_Cover.jpg')] h-[90vh] bg-no-repeat bg-cover bg-center py-10 flex justify-center bg-cyan-300">
+                    <div class=" w-4/5">
+                        <div class="bg-slate-300 grid grid-cols-4 gap-2  justify-items-center">
+                            <div
+                                class="border-yellow-600 h-20 w-full border-2 flex justify-center items-center rounded-md">
+                                <div class="text-center font-bold text-white ">
+                                    <p class="text-2xl font-bold">01</p>
+                                    <p class="text-xs">দিন</p>
+                                </div>
+                            </div>
+                            <div
+                                class="border-yellow-600 h-20 border-2 w-full flex justify-center items-center rounded-md">
+                                <div class="text-center font-bold text-white text-lg">
+                                    <p class="text-2xl font-bold">23</p>
+                                    <p class="text-xs">ঘণ্টা</p>
+                                </div>
+                            </div>
+                            <div
+                                class="border-yellow-600 border-2 h-20 w-full flex justify-center items-center rounded-md">
+                                <div class="text-center font-bold text-white text-lg">
+                                    <p class="text-2xl font-bold">58</p>
+                                    <p class="text-xs">মিনিট</p>
+                                </div>
+                            </div>
+                            <div
+                                class="border-yellow-600 border-2 h-20 w-full flex justify-center items-center rounded-md">
+                                <div class="text-center font-bold text-white text-lg">
+                                    <p class="text-2xl font-bold">00</p>
+                                    <p class="text-xs">সেকেন্ড</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center p-8 bg-green-900 my-6 bg-opacity-60 text-lime-400">
+                            <div class=" w-3/4">
+                                <div class="text-center py-4">
+                                    <p>কৃষিজাতের</p>
+                                    <h1 class="text-xl font-bold">আম সংগ্রহকরণ ক্যালেন্ডার</h1>
+                                    <p>(সাতক্ষীরা থেকে)</p>
+                                </div>
+                                <div class="flex w-full justify-center">
+                                    <div class="rounded-md border border-lime-400 w-3/4">
+                                        
+                                        <table class="border-collapse w-full">
+                                            <thead class="text-lime-900">
+                                                <tr class="px-2">
+                                                    <th class="border border-green-400   mx-2">
+                                                        <p class="bg-lime-400 px-4 py-1 m-0.5 rounded-tl-md">আমের জাত</p>
+                                                    </th>
+                                                    <th class="border border-green-400">
+                                                        <p class="bg-lime-400 px-4 py-1 m-0.5 rounded-tr-md">আম সংগ্রহের তারিখ</p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <td class="border border-green-400 p-2">হিমসাগর</td>
+                                                    <td class="border border-green-400 p-2">২২ মে ২০২৪</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="border border-green-400 p-2">ল্যাংড়া</td>
+                                                    <td class="border border-green-400 p-2">২৯ মে ২০২৪</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="border border-green-400 p-2">আম্রপালি</td>
+                                                    <td class="border border-green-400 p-2">২২ জুন ২০২৪</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex justify-center">
+            <div class="grid grid-cols-3 justify-items-center gap-2 w-4/5">
+                <div class="w-full h-20 border border-yellow-500">1</div>
+                <div class="w-full h-20 border border-yellow-500">1</div>
+                <div class="w-full h-20 border border-yellow-500">1</div>
+            </div>
+        </div>
+        </div>
+    </div>
 </body>
+
 </html>
