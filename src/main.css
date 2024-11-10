@@ -60,7 +60,7 @@
     background-position: left bottom; /* This inverts the zigzag */
     transform: rotate(180deg); /* Flip the pattern */
 }
-.banner-area{
+/* .banner-area{
     background-image: url('../public/images/Homepage-Shopify_Cover.jpg');
     -webkit-background-size: cover;
     background-size: cover;
@@ -69,16 +69,16 @@
     position: relative;
     z-index: 1;
     height: 400px;
-}
+} */
 .wave{
-    bottom: 0;
+    bottom: 1;
     width: 100%;
     left: 0;
-    /* height: 20px; */
+    
 }
 .custom-shape {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;

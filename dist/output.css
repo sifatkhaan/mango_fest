@@ -831,6 +831,11 @@ video {
   background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
+.bg-purple-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 132 252 / var(--tw-bg-opacity));
+}
+
 .bg-purple-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(147 51 234 / var(--tw-bg-opacity));
@@ -1138,26 +1143,26 @@ video {
   /* Flip the pattern */
 }
 
-.banner-area{
-  background-image: url('../public/images/Homepage-Shopify_Cover.jpg');
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  position: relative;
-  z-index: 1;
-  height: 400px;
-}
+/* .banner-area{
+    background-image: url('../public/images/Homepage-Shopify_Cover.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+} */
 
 .wave{
-  bottom: 0;
+  bottom: 1;
   width: 100%;
   left: 0;
-  /* height: 20px; */
 }
 
 .custom-shape {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
