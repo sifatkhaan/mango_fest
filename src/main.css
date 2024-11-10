@@ -5,3 +5,79 @@
 .thead-opacity{
     opacity: 1;
 }
+#bkash {
+    position: relative;
+    margin-top: 1rem; /* Adjust as needed */
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+#bkash::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f472b6; 
+}
+
+/* .custom-border:after{
+    background-color: transparent; 
+    background: linear-gradient(-45deg, #fff 10px, transparent 0), 
+                linear-gradient(45deg, #fff 10px, transparent 0);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 12px 32px;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+
+} */
+.custom-border {
+    position: relative;
+    overflow: visible; /* Allow pseudo-elements to go outside the div */
+}
+
+.custom-border:after,
+.custom-border:before {
+    background: linear-gradient(-45deg, #fff 5px, transparent 0), 
+                linear-gradient(45deg, #fff 5px, transparent 0);
+    background-repeat: repeat-x;
+    background-size: 8px 26px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+}
+
+
+.custom-border:after {
+    bottom: 0;
+    left: 0;
+    background-position: left bottom;
+}
+
+.custom-border:before {
+    top: 0px; /* Moves it above the top edge of the div */
+    left: 0;
+    background-position: left bottom; /* This inverts the zigzag */
+    transform: rotate(180deg); /* Flip the pattern */
+}
+.banner-area{
+    background-image: url('../public/images/Homepage-Shopify_Cover.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
